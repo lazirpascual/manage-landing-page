@@ -32,12 +32,12 @@ function App() {
       </header>
 
       <main>
-        <section>
+        <section className="padding-block-900">
           <div className="container">
             <div className="even-columns">
               <div>
                 <h1 className="fs-primary-heading fw-bold">
-                  Bring everyone together to build better products
+                  Bring everyone together to build better products.
                 </h1>
                 <p>
                   Manage makes it simple for software teams to plan day-to-day
@@ -105,12 +105,12 @@ function App() {
           </div>
         </div>
 
-        <section className="carousel">
-          <h2 className="fs-secondary-heading">What they've said?</h2>
+        <section className="carousel | padding-block-700">
+          <h2 className="fs-secondary-heading fw-bold">What they've said?</h2>
           <button className="button">Get Started</button>
         </section>
 
-        <section className="cta | bg-primary-400 text-neutral-100">
+        <section className="cta | padding-block-700 bg-accent-400 text-neutral-100">
           <div className="container">
             <div className="even-columns">
               <div>
@@ -119,7 +119,7 @@ function App() {
                 </p>
               </div>
               <div>
-                <button className="button" datatype="inverted">
+                <button className="button" data-type="inverted">
                   Get Started
                 </button>
               </div>
@@ -128,7 +128,7 @@ function App() {
         </section>
       </main>
 
-      <footer className="bg-neutral-900 text-neutral-100">
+      <footer className="padding-block-700 bg-neutral-900 text-neutral-100">
         <div className="container">
           <div className="even-columns">
             <div>
