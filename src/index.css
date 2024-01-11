@@ -131,10 +131,6 @@ p:not([class]) {
   max-width: 32ch;
 }
 
-p[data-width='wide'] {
-  max-width: 100%;
-}
-
 .button {
   display: inline-flex;
   cursor: pointer;
