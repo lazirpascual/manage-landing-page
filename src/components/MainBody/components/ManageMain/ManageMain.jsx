@@ -4,7 +4,7 @@ export default function ManageMain() {
       <section className="padding-block-900">
         <div className="container">
           <div className="even-columns">
-            <div>
+            <div className="flow">
               <h1 className="fs-primary-heading fw-bold">
                 Bring everyone together to build better products.
               </h1>

@@ -33,9 +33,6 @@
   color: var(--clr-accent-400);
 }
 
-.display-sm-none {
-  display: none;
-}
 
 @media (max-width: 50em) {
   .primary-navigation {
@@ -84,8 +81,3 @@
   }
 }
 
-@media (min-width: 50em) {
-  .display-md-inline-flex {
-    display: inline-flex;
-  }
-}
