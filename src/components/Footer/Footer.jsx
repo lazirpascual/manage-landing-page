@@ -1,32 +1,56 @@
+import './Footer.css';
+
 export default function Footer() {
   return (
     <>
-      <footer className="padding-block-700 bg-neutral-900 text-neutral-100">
+      <footer className="primary-footer | padding-block-700 bg-neutral-900 text-neutral-100">
         <div className="container">
-          <div className="even-columns">
-            <div>
-              <a href="#" className="logo">
-                <img src="images/logo.svg" alt="Manage" />
+          <div className="primary-footer-wrapper">
+            <div className="primary-footer-logo-social">
+              <a href="#">
+                <svg width="146" height="24">
+                  <use xlinkHref="images/logo.svg#logo" />
+                </svg>
               </a>
-              <ul role="list" aria-label="social links">
+              <ul className="social-list" role="list" aria-label="social links">
                 <li>
-                  <a aria-label="facebook" href="#"></a>
+                  <a aria-label="facebook" href="#">
+                    <svg className="social-icon">
+                      <use xlinkHref="images/social-icons.svg#icon-facebook" />
+                    </svg>
+                  </a>
                 </li>
                 <li>
-                  <a aria-label="youtube" href="#"></a>
+                  <a aria-label="youtube" href="#">
+                    <svg className="social-icon">
+                      <use xlinkHref="images/social-icons.svg#icon-youtube" />
+                    </svg>
+                  </a>
                 </li>
                 <li>
-                  <a aria-label="twitter" href="#"></a>
+                  <a aria-label="twitter" href="#">
+                    <svg className="social-icon">
+                      <use xlinkHref="images/social-icons.svg#icon-twitter" />
+                    </svg>
+                  </a>
                 </li>
                 <li>
-                  <a aria-label="pinterest" href="#"></a>
+                  <a aria-label="pinterest" href="#">
+                    <svg className="social-icon">
+                      <use xlinkHref="images/social-icons.svg#icon-pinterest" />
+                    </svg>
+                  </a>
                 </li>
                 <li>
-                  <a aria-label="instagram" href="#"></a>
+                  <a aria-label="instagram" href="#">
+                    <svg className="social-icon">
+                      <use xlinkHref="images/social-icons.svg#icon-instagram" />
+                    </svg>
+                  </a>
                 </li>
               </ul>
             </div>
-            <div>
+            <div className="primary-footer-nav">
               <nav className="footer-nav">
                 <ul
                   className="flow"
@@ -58,12 +82,14 @@ export default function Footer() {
                 </ul>
               </nav>
             </div>
-            <div>
+            <div className="primary-footer-form">
               <form action="">
                 <input type="email" />
-                <button className="button">Go</button>
-                <p>Copyright 2020. All Rights Reserved.</p>
+                <button className="button" data-shadow="none">
+                  Go
+                </button>
               </form>
+              <p>Copyright 2020. All Rights Reserved.</p>
             </div>
           </div>
         </div>

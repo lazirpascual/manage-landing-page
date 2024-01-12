@@ -17,7 +17,9 @@ export default function MainNavigation() {
         <div className="container">
           <div className="nav-wrapper">
             <a href="#" className="logo">
-              <img src="images/logo.svg" alt="Manage"></img>
+              <svg width="146" height="24">
+                <use xlinkHref="images/logo.svg#logo" />
+              </svg>
             </a>
             <button
               className="mobile-nav-toggle"
